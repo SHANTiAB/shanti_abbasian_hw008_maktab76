@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    height: 822px;
+  
+}
+.col-one{
+    /* background-color: blueviolet; */
+    width: 50%;
+    padding:200px   120px;
+    flex-direction: column;
+    display: flex;
+    
+}
+.col-two{
+    width: 50%;
+    display: flex ;
+    background-image: url(./spiderman.jpg);
+    background-size:cover;
+}
+#appirience {
+    border:  none;
+    border-bottom: 1px solid  rgb(206, 202, 202);
+    padding: 3px 14px;
+
+ 
+}
+#login {
+    color: #fff;
+    background-color: rgba(88, 153, 228, 0.964);
+    border: none;
+    height: 40px;
+    border-radius: 4px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#forgot {
+    color: gray;
+}
+ .content {
+     display: flex;
+     justify-content: space-between;
+     margin: 10px;
+    
+ }
+ .div {
+     display: block;
+ }
+ .main-title {
+    margin: 5px;
+ }
+ p {
+     color: gray;
+ }
+ .fix {
+    margin: 9px 0;
+ }
+ .fix-two {
+    margin: 9px 0;
+ }
+ 

@@ -1,0 +1,59 @@
+*{
+    padding:0;
+    margin: 2px;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+.container>*{
+    height: 100%;
+    width: 800px;
+    display: flex;
+    gap: 7px;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.img-one,
+.img-four,
+.img-five,
+.img-eight {
+    height: 28%;
+}
+.img-two,
+.img-three,
+.img-six,
+.img-seven {
+    height: 75%;
+}
+.img-one {
+    background-image: url(./jumpper.jpg);
+}
+.img-two {
+    background-image: url(./Unknown-3.jpg);
+}
+.img-three{
+    background-image: url(./wardell.png);
+}
+.img-four {
+    background-image: url(./jj.jpg );
+}
+.img-five {
+    background-image: url(./bbb.jpg);
+}
+.img-six {
+    background-image: url(./blue.jpg);
+}
+.img-seven {
+    background-image: url(./lol.jpg);
+}
+.img-eight {
+    background-image: url(./The\ Hardwood.jpg );
+}
+div[class^='img']{
+    background-size:cover;
+}
